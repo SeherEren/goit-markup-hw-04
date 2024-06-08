@@ -401,7 +401,7 @@ img{
     row-gap:48px
 } 
 
-.portfolio-list-li .portfolio-list-li{
+.portfolio-list-li{
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -422,14 +422,14 @@ img{
     border-top: none;  
 }
 
-.portfolio-list-li .portfolio-list-li .image-container{
+.portfolio-list .portfolio-list-li .image-container{
     width: 360px;
     height: 360px;
     overflow: hidden;
     position: relative;
 }
 
-.portfolio-list-li .portfolio-list-li .image-container .img{
+.portfolio-list .portfolio-list-li .image-container .img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -437,7 +437,7 @@ img{
 }
 
 
-.portfolio-list-li .portfolio-list-li .image-container .image-text{
+.portfolio-list .portfolio-list-li .image-container .image-text{
     position: absolute;
     top:0;
     font-size: 16px;
